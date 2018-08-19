@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Contact | Grant Goings</title>
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="navbar navbar-light" style="background-color: white">
+        <div class="container">
+            <a href="index.html" id="logo">Grant Goings</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="card bg-light mx-auto" style="max-width:750px; margin-top:30px">
+        <div class="card-header" style="font-size:40px; color: #4aaaa5; font-weight: bold">Contact</div>
+            <div class="card-body">
+              <div class="card-text">
+                <form id="contact-form">
+                  <ul style="list-style-type:none">
+                      <li>
+                          <label for="name">Name</label>
+                          <input type="text" id="name" name="name" required="required" />
+                      </li>
+                      <li>
+                          <label for="email">Email</label>
+                          <input type="email" id="email" name="email" required="required" />
+                      </li>
+                      <li>
+                          <label for="message">Message</label>
+                          <textarea id="message" name="message" required="required"></textarea>
+                      </li>
+                  </ul>
+                  <input type="submit" />
+              </form>
+            </div>
+          </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            Copyright © 2017 Grant Goings
+        </div>
+    </footer>
+</body>
+</html>
